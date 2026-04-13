@@ -4,9 +4,12 @@ function calculateSI(){
     var r=document.getElementById('rate').value;
     var si=(p*n*r)/100;
     document.getElementById("res").innerHTML += " " + si + " Rs."; 
+}
 
+function showTitle(){
+    document.getElementById('page-title').style.display = '';
+}
 
-
-
-
+function hideTitle(){
+    document.getElementById('page-title').style.display = 'none';
 }
